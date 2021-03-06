@@ -1,0 +1,68 @@
+@import "header.scss";
+
+.show{
+    margin-top: 100px;
+    .collections{
+        width: 1200px;
+        margin: 0 auto;
+        .collection{
+            &:nth-child(1){
+                animation: fadeL 1.5s 1s forwards;
+            }
+            margin: 50px;
+            border: #fff solid 10px;
+            box-shadow:10px 0.111rem 40px 1px rgba(77, 76, 76, 0.651);
+            position: relative;
+            img{
+                width: 100%;
+            }
+            .content{
+                position: absolute;
+                h1,p, button{
+                    color: #fff;
+                }
+                top: 50%;
+                left: 50%;
+                transform: translate(-100%, -50%);
+                button{
+                    margin-bottom: 10px;
+                    border-radius: 5px;
+                    background: $button-color;
+                    padding: 10px 20px;
+                    border: none;
+                    color: #fff;
+                    &:hover{
+                        background: $hover-color;
+                    }
+                }
+            }
+        }
+    }
+}
+.fade_left{
+    animation: fadeL 1.5s 1s forwards;
+}
+.fade_right{
+    animation: fadeR 1.5s 1s forwards;
+}
+
+@keyframes fadeL{
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+@keyframes fadeR{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

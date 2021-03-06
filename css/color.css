@@ -1,0 +1,46 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+a, p, i, h1 {
+  letter-spacing: 1px;
+  color: #8e6faa;
+}
+
+.f-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.f-space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.active {
+  color: #d7bcdb;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+/*# sourceMappingURL=color.css.map */

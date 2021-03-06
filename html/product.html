@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Product</title>
+</head>
+
+<body>
+    <div data-include="header"></div>
+    <div class="product">
+        <div class="sort f-space">
+            <div class="size">
+                <h2>Size:</h2>
+                <table>
+                    <tr>
+                        <th><a href="">S</a></th>
+                        <th><a href="">M</a></th>
+                        <th><a href="">L</a></th>
+                        <th><a href="">XL</a></th>
+                        <th><a href="">XXL</a></th>
+                    </tr>
+                </table>
+            </div>
+            <div class="color">
+                <h2>Color:</h2>
+                <table>
+                    <tr>
+                        <th class="red"><a href=""></a></th>
+                        <th class="yellow"><a href=""></a></th>
+                        <th class="blue"><a href=""></a></th>
+                        <th class="green"><a href=""></a></th>
+                        <th class="white"><a href=""></a></th>
+                        <th class="black"><a href=""></a></th>
+                    </tr>
+                    <tr>
+                        <th class="green"><a href=""></a></th>
+                        <th class="white"><a href=""></a></th>
+                        <th class="black"><a href=""></a></th>
+                        <th class="red"><a href=""></a></th>
+                        <th class="yellow"><a href=""></a></th>
+                        <th class="blue"><a href=""></a></th>
+                    </tr>
+                </table>
+            </div>
+            <div class="brands">
+                <h2>Brands:</h2>
+                <input type="checkbox" name="" id="Gucci">
+                <label for="Gucci">Gucci</label>
+                <input type="checkbox" name="LV" id="">
+                <label for="LV">LV</label>
+                <input type="checkbox" name="Hermes" id="">
+                <label for="Hermes">Hermes</label>
+                <input type="checkbox" name="Chanel" id="">
+                <label for="Chanel">Chanel</label>
+                <input type="checkbox" name="Balenciaga" id="">
+                <label for="Balenciaga">Balenciaga</label>
+            </div>
+            <div class="price">
+                <h2>Price ($):</h2>
+                <input type="range" id="rangeInput" name="rangeInput" min="0" max="1000" value="0"
+                    oninput="amount.value=rangeInput.value">
+
+                <output id="amount" name="amount" for="rangeInput">0</output>
+                <!-- <input type="range" name="rangeInput" min="0" max="100" onchange="updateTextInput(this.value);">
+                <input type="text" id="textInput" value=""> -->
+            </div>
+        </div>
+        <div class="items">
+            <div class="item">
+                <img src="/img/so2.jpg" alt="">
+                <div class="sale f-center">30%</div>
+                <div class="content">
+                    <h4>Name </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button>Buy now!</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/img/so4.jpg" alt="">
+                <div class="sale f-center">40%</div>
+                <div class="content">
+                    <h4>Name </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button>Buy now!</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/img/so2.jpg" alt="">
+                <div class="sale f-center">30%</div>
+                <div class="content">
+                    <h4>Name </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button>Buy now!</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/img/so2.jpg" alt="">
+                <div class="sale f-center">30%</div>
+                <div class="content">
+                    <h4>Name </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button>Buy now!</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/img/so3.jpg" alt="">
+                <div class="sale f-center">20%</div>
+                <div class="content">
+                    <h4>Name </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button>Buy now!</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/img/so3.jpg" alt="">
+                <div class="sale f-center">20%</div>
+                <div class="content">
+                    <h4>Name </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button>Buy now!</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/img/so4.jpg" alt="">
+                <div class="sale f-center">40%</div>
+                <div class="content">
+                    <h4>Name </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button>Buy now!</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/img/so5.jpg" alt="">
+                <div class="sale f-center">25%</div>
+                <div class="content">
+                    <h4>Name </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button>Buy now!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-include="footer"></div>
+</body>
+
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/home.js"></script>
+<script src="/js/jquery.js"></script>
+
+</html>

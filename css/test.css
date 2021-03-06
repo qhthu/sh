@@ -1,0 +1,21 @@
+.avt {
+  position: relative;
+  width: 100px;
+}
+
+.avt .stt {
+  position: absolute;
+  background: #31d82b;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  right: 0;
+  bottom: 0;
+  border: 4px solid #fff;
+}
+
+.avt img {
+  width: 100%;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=test.css.map */

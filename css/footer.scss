@@ -1,0 +1,76 @@
+@import "color.scss";
+.more{
+    a,i,p{
+        color: #333333;
+    }
+    background: $main-color;
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 1200px;
+        margin: 0 auto;
+        // border-bottom: 1px solid #fff;
+        li{
+            padding: 10px;
+            &:hover{
+                a{
+                    color: $hover-color;
+                }
+            }
+        }
+    }
+    .bot{
+        text-align: center;
+        padding: 10px;
+        p{
+            border-top: 1px solid #fff;
+            padding-top: 20px;
+            a{
+                &:hover{
+                    color: $hover-color;
+                }
+            }
+        }
+        .sn{
+            i{
+                &:hover{
+                    color: $hover-color;
+                }
+            }
+            height: 40px;
+            margin: 0 auto;
+            width: 400px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .more{
+        width: 600px;
+        margin: 0 auto;
+        .top{
+            width: 550px;
+            p{
+                font-size: 15px;
+            }
+            li{
+                padding: 5px;
+                a{
+                    font-size: 12px;
+                }
+            }
+        }
+        .bot{
+            padding: 5px;
+            p{
+                padding-top: 5px;
+                font-size: 12px;
+            }
+            .sn{
+               width: 200px;
+            }
+        }
+    }
+
+}

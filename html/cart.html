@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Cart</title>
+</head>
+
+<body>
+
+    <div data-include="header"></div>
+    <div class="cart-item">
+        <div class="items">
+            <div class="top">
+                <ul class="f-space">
+                    <li>
+                        <input id="select_all" type="checkbox">
+                    </li>
+                    <li>Product</li>
+                    <li>Price</li>
+                    <li>Quantity</li>
+                    <li>Total</li>
+                    <li>Manipulation</li>
+                </ul>
+            </div>
+            <div class="item">
+                <ul class="f-space">
+                    <li><input name="check[]" class="checkbox" type="checkbox"></li>
+                    <li class="f-space">
+                        <img src="/img/so5.jpg" alt="">
+                        <h4>thư nè 123 </h4>
+                        <p>Phân loại hàng: Size M</p>
+                    </li>
+                    <li>
+                        <p><span>$123</span>$100</p>
+                    </li>
+                    <li>1</li>
+                    <li>$100</li>
+                    <li>Delete</li>
+                </ul>
+                <ul class="f-space">
+                    <li><input name="check[]" class="checkbox" type="checkbox"></li>
+                    <li class="f-space">
+                        <img src="/img/so4.jpg" alt="">
+                        <h4>thư nè 123 </h4>
+                        <p>Phân loại hàng: Size M</p>
+                    </li>
+                    <li>
+                        <p><span>$123</span>$100</p>
+                    </li>
+                    <li>1</li>
+                    <li>$100</li>
+                    <li>Delete</li>
+                </ul>
+                <ul class="f-space">
+                    <li><input name="check[]" class="checkbox" type="checkbox"></li>
+                    <li class="f-space">
+                        <img src="/img/so4.jpg" alt="">
+                        <h4>thư nè 123 </h4>
+                        <p>Phân loại hàng: Size M</p>
+                    </li>
+                    <li>
+                        <p><span>$123</span>$100</p>
+                    </li>
+                    <li>1</li>
+                    <li>$100</li>
+                    <li>Delete</li>
+                </ul>
+                <!-- <p style="padding: 15px 0 0 10px; text-align: left; border-top: 1px solid rgb(189, 189, 189);">
+                    <i style="margin: 10px;" class="fas fa-truck-moving"></i>Miễn Phí Vận Chuyển cho đơn hàng từ ₫50.000
+                    (giảm tối đa
+                    ₫20.000); Miễn Phí Vận Chuyển cho đơn hàng
+                    từ ₫300.000 (giảm tối đa ₫70.000)</p> -->
+            </div>
+
+        </div>
+        <div class="pay">
+            <ul class="f-space">
+                <li><input type="checkbox" name="" id=""> Select all</li>
+                <li class="f-center">
+                    <p>Total (x product):<span> $xxx</span></p>
+                    <a href="">Buy now!</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-include="footer"></div>
+</body>
+
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/home.js"></script>
+<script src="/js/selectall.js"></script>
+
+</html>

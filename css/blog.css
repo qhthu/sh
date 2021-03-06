@@ -1,0 +1,16 @@
+.blog {
+  margin: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog p {
+  width: 1000px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=blog.css.map */
